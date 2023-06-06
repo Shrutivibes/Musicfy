@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+
+nav li{
+    cursor:pointer;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container h3{
+    background-color: rgba(0, 0, 0, 0.683);
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+}
+.container{
+    min-height: 66vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 50%;
+    border-radius: 12px;
+    padding: 12px;
+    background-image: url('/pexels-matthias-groeneveld-4200745\ \(1\).jpg');
+    background-size: cover;
+    
+}
+.bottom{
+    height: 70px;
+    position: sticky;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vh;
+    margin-top: 2%;
+   }
+.icons{
+    margin-top: 10px;
+   }
+.icons i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 10px;
+}
+.songItem{
+height: 50px;
+display: flex;
+background-color: rgba(255, 255, 253, 0.689);
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+} 
+.songItem img{
+    width: 38px;
+    margin: 0 ;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.songInfo img{
+    width: 24px;
+    margin-top: 24px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
